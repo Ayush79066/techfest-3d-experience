@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#080b18" />
+  <title>TECHFEST // Beyond the Ordinary</title>
+  <meta name="description" content="An immersive interactive 3D technology experience." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <nav class="nav">
+    <a class="brand" href="#top" aria-label="Techfest home"><span class="brand-mark">T</span><span>TECHFEST<span class="brand-dot">.</span></span></a>
+    <div class="nav-links"><a href="#experience">Experience</a><a href="#features">Explore</a><a href="#about">About</a></div>
+    <a class="nav-cta" href="#experience">Enter the future <span>↗</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+  </nav>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> THE FUTURE IS INTERACTIVE <span class="eyebrow-line"></span> 2026</div>
+        <h1>BEYOND<br>THE <span class="gradient-text">ORDINARY.</span></h1>
+        <p class="hero-sub">Where imagination meets engineering. Step into a digital universe built to spark curiosity, challenge limits, and make the impossible feel tangible.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#experience">Explore the experience <span>↘</span></a>
+          <a class="text-link" href="#features">Discover more <span>→</span></a>
+        </div>
+        <div class="hero-meta"><div><strong>01</strong><span>IMMERSIVE WORLDS</span></div><div><strong>∞</strong><span>NEW POSSIBILITIES</span></div><div><strong>100%</strong><span>INTERACTIVE</span></div></div>
+      </div>
+      <div class="hero-visual" id="experience">
+        <div class="visual-label label-top"><span class="label-dot"></span> LIVE SIMULATION <span class="label-divider">/</span> 01.26</div>
+        <canvas id="scene" aria-label="Interactive animated 3D energy sphere"></canvas>
+        <div class="orbit-caption caption-left"><span class="caption-index">A—01</span><span>QUANTUM<br>FIELD</span></div>
+        <div class="orbit-caption caption-right"><span class="caption-index">B—09</span><span>ENERGY<br>CORE</span></div>
+        <div class="visual-bottom"><span>DRAG TO ROTATE</span><span class="drag-icon">↔</span><span>SCROLL TO EXPLORE</span></div>
+        <div class="crosshair crosshair-a">+</div><div class="crosshair crosshair-b">+</div>
+      </div>
+      <div class="scroll-cue"><span></span> SCROLL TO DESCEND</div>
+    </section>
+
+    <section class="ticker" aria-label="Themes"><div class="ticker-track"><span>IDEAS INTO IMPACT</span><b>✳</b><span>DESIGN THE UNKNOWN</span><b>✳</b><span>BUILD WHAT'S NEXT</span><b>✳</b><span>IDEAS INTO IMPACT</span><b>✳</b><span>DESIGN THE UNKNOWN</span><b>✳</b><span>BUILD WHAT'S NEXT</span><b>✳</b></div></section>
+
+    <section class="features section" id="features">
+      <div class="section-heading"><div><div class="eyebrow"><span class="pulse"></span> A NEW DIMENSION</div><h2>Curiosity has<br>no <span class="gradient-text">boundaries.</span></h2></div><p class="section-intro">Move beyond the screen. Discover a playground of light, motion, and possibility—crafted for the next generation of makers.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card card-violet"><div class="card-number">01 / INTERACT</div><div class="mini-orb orb-violet"></div><div class="card-icon">↗</div><h3>Touch the unknown.</h3><p>Move your cursor, shift the perspective, and see a digital world respond to you in real time.</p><a href="#experience" class="card-link">TRY IT NOW <span>↗</span></a></article>
+        <article class="feature-card card-blue"><div class="card-number">02 / IMAGINE</div><div class="mini-orb orb-blue"></div><div class="card-icon">✳</div><h3>Think in new dimensions.</h3><p>Explore a living 3D environment where geometry, light, and motion become a language.</p><a href="#experience" class="card-link">ENTER THE FIELD <span>↗</span></a></article>
+        <article class="feature-card card-orange"><div class="card-number">03 / CREATE</div><div class="mini-orb orb-orange"></div><div class="card-icon">⌁</div><h3>Make ideas real.</h3><p>Technology is more than a tool. It is the starting point for things that do not exist yet.</p><a href="#about" class="card-link">OUR PHILOSOPHY <span>↗</span></a></article>
+      </div>
+    </section>
+
+    <section class="manifesto section" id="about">
+      <div class="manifesto-art"><div class="manifesto-ring ring-one"></div><div class="manifesto-ring ring-two"></div><div class="manifesto-ring ring-three"></div><div class="manifesto-core">TF<span>✳</span></div><span class="art-tag art-tag-one">CURIOSITY / 001</span><span class="art-tag art-tag-two">SYSTEM ONLINE</span></div>
+      <div class="manifesto-copy"><div class="eyebrow"><span class="pulse"></span> THE TECHFEST MINDSET</div><h2>Don't just<br>watch the future.<br><span class="gradient-text">Build it.</span></h2><p>Every breakthrough begins with a question. Every invention begins with someone willing to experiment. This is a tribute to the builders, the curious, and the people who look at the world and ask, “what if?”</p><a href="#top" class="button button-outline">Back to the beginning <span>↑</span></a></div>
+    </section>
+
+    <section class="final-cta"><div class="eyebrow"><span class="pulse"></span> YOUR NEXT IDEA STARTS HERE</div><h2>MAKE ROOM FOR<br><span class="gradient-text">THE IMPOSSIBLE.</span></h2><a href="#experience" class="button button-primary">Re-enter the experience <span>↗</span></a><div class="cta-glow"></div></section>
+  </main>
+
+  <footer><a class="brand" href="#top"><span class="brand-mark">T</span><span>TECHFEST<span class="brand-dot">.</span></span></a><span class="footer-note">DESIGNED FOR THE CURIOUS. BUILT FOR WHAT'S NEXT.</span><a href="#top" class="back-top">BACK TO TOP ↑</a></footer>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
